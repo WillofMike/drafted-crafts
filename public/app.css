@@ -23,7 +23,6 @@ section {
 }
 #wood-section-2 {
   display: grid;
-  /*justify-content: center;*/
   grid-column: 2/4;
   grid-row: 1;
   padding: 15px;
@@ -35,38 +34,43 @@ section {
 }
 img {
   border: solid black 2px;
-  background: grey;
+  background: yellow;
   height: 8em;
   width: 8em;
+  padding: .15em;
 }
 .photos {
   display: grid;
   grid-row: 1;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-gap: 20px;
   grid-auto-rows: minmax(100px, auto);
 }
 
-
 .image-card{
   display: grid;
+  box-shadow: 2px 1px 3px black;
   border: solid black 1px;
   padding: 1em;
   background-color: grey;
 }
 .p-title {
-  grid-row: 2
-  grid-column: 2;
+  grid-row: 1
+  grid-column: 1;
 }
 #image-1 {
+box-shadow: 3px 2px 2px black;
 grid-row: 1;
 grid-column: 2
 }
 #image-2 {
+box-shadow: 3px 2px 2px black;
 grid-row: 1;
 grid-column: 2
+
 }
 #image-3 {
+box-shadow: 3px 2px 2px black;
 grid-row: 1;
 grid-column: 2
 }
