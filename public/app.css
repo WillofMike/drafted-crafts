@@ -74,3 +74,9 @@ box-shadow: 3px 2px 2px black;
 grid-row: 1;
 grid-column: 2
 }
+.item-split {
+  display: flex;
+  justify-content: center;
+  border-top: solid grey 1px;
+  border-bottom: solid grey 1px;
+}
