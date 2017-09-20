@@ -1,7 +1,17 @@
+body {
+  z-index: 0;
+  background-image: url('http://biteinto.info/wp-content/uploads/2016/02/light-wood-grain-background-and-light-wood-grain-background-0.jpg');
+  background-size: cover;
+  color: white;
+  position: absolute;
+}
 .wrapper {
+  z-index: 2;
   display: grid;
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+  position: relative;
+  
 }
 .header {
   background-color: orange;
@@ -14,12 +24,12 @@
 }
 
 #wood-section {
-  background-color: tan;
+  background-color: brown;
   grid-column: 1;
   grid-row: 1
 }
 #wood-section-2 {
-  background-color: tan;
+  background-color: brown;
   display: grid;
   grid-column: 2/4;
   grid-row: 1;
@@ -32,12 +42,12 @@
   grid-auto-rows: minmax(100px, auto);
 }
 #craft-section {
-  background-color: tan;
+  background-color: brown;
   grid-column: 1;
   grid-row: 1
 }
 #craft-section-2 {
-  background-color: tan;
+  background-color: brown;
   display: grid;
   grid-column: 2/4;
   grid-row: 1;
@@ -52,11 +62,11 @@
 }
 
 #laser-section {
-  background-color: tan;
+  background-color: brown;
   grid-row: 1
 }
 #laser-section-2 {
-  background-color: tan;
+  background-color: brown;
   display: grid;
   grid-column: 1/3;
   grid-row: 1;
@@ -116,14 +126,14 @@ img {
   box-shadow: 2px 1px 3px black;
   border: solid black 1px;
   padding: 1em;
-  background-color: grey;
+
 }
 .image-card-2{
   display: grid;
   box-shadow: -2px 1px 3px black;
   border: solid black 1px;
   padding: 1em;
-  background-color: grey;
+
 }
 .p-title {
   padding: 10px;
@@ -172,6 +182,9 @@ grid-column: 2
   justify-content: center;
   border-top: solid grey 1px;
   border-bottom: solid grey 1px;
+  background-color: rgba(211, 211, 211, 0.8);
+  margin-top: auto;
+  margin-bottom: auto;
 }
 #nav-footer {
   display: grid;
