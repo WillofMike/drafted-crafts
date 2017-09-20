@@ -27,6 +27,27 @@ section {
   grid-row: 1;
   padding: 15px;
 }
+#laser-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#laser-section {
+  grid-row: 1
+}
+#laser-section-2 {
+  display: grid;
+  grid-column: 1/3;
+  grid-row: 1;
+  padding: 15px;
+}
+#laser-image-title {
+  padding: 15px;
+  grid-row: 1;
+  grid-column: 3;
+}
 .image-title {
   padding: 15px;
   grid-row: 1;
@@ -58,18 +79,18 @@ img {
   grid-row: 1
   grid-column: 1;
 }
-#image-1 {
+.image-1 {
 box-shadow: 3px 2px 2px black;
 grid-row: 1;
 grid-column: 2
 }
-#image-2 {
+.image-2 {
 box-shadow: 3px 2px 2px black;
 grid-row: 1;
 grid-column: 2
 
 }
-#image-3 {
+.image-3 {
 box-shadow: 3px 2px 2px black;
 grid-row: 1;
 grid-column: 2
