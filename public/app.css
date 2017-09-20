@@ -75,9 +75,22 @@ img {
   padding: 1em;
   background-color: grey;
 }
+.image-card-2{
+  display: grid;
+  box-shadow: -2px 1px 3px black;
+  border: solid black 1px;
+  padding: 1em;
+  background-color: grey;
+}
 .p-title {
-  grid-row: 1
+  padding: 10px;
   grid-column: 1;
+  grid-row: 1
+}
+.p-title-2 {
+  padding: 10px;
+  grid-column: 3;
+  grid-row: 1
 }
 .image-1 {
 box-shadow: 3px 2px 2px black;
@@ -92,6 +105,22 @@ grid-column: 2
 }
 .image-3 {
 box-shadow: 3px 2px 2px black;
+grid-row: 1;
+grid-column: 2
+}
+#image-1 {
+box-shadow: -3px -2px 2px black;
+grid-row: 1;
+grid-column: 2
+}
+#image-2 {
+box-shadow: -3px -2px 2px black;
+grid-row: 1;
+grid-column: 2
+
+}
+#image-3 {
+box-shadow: -3px -2px 2px black;
 grid-row: 1;
 grid-column: 2
 }
