@@ -79,6 +79,30 @@ img {
   width: 8em;
   padding: .15em;
 }
+#wood-gif {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  width: 275px;
+  background-color: grey;
+  margin: auto;
+}
+#laser-gif {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  width: 275px;
+  background-color: grey;
+  margin: auto;
+}
+#craft-gif {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  width: 275px;
+  background-color: grey;
+  margin: auto;
+}
 .photos {
   display: grid;
   grid-row: 1;
