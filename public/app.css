@@ -1,35 +1,38 @@
 body {
-  z-index: 0;
-  background-image: url('http://biteinto.info/wp-content/uploads/2016/02/light-wood-grain-background-and-light-wood-grain-background-0.jpg');
-  background-size: cover;
   color: white;
-  position: absolute;
 }
 .wrapper {
-  z-index: 2;
   display: grid;
-  grid-gap: 10px;
+  /*grid-gap: 10px;*/
   grid-auto-rows: minmax(100px, auto);
-  position: relative;
-  
 }
 .header {
-  background-color: orange;
+  /*background-color: orange;*/
+  background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/ricardo-gomez-angel-262359.jpg?raw=true');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 600px;
+
 }
 #wood-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+  height: 300px;
+
 }
 
 #wood-section {
-  background-color: brown;
+  background-color: grey;
   grid-column: 1;
   grid-row: 1
 }
 #wood-section-2 {
-  background-color: brown;
+  background-color: grey;
   display: grid;
   grid-column: 2/4;
   grid-row: 1;
@@ -40,14 +43,16 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+  height: 300px;
+
 }
 #craft-section {
-  background-color: brown;
+  background-color: grey;
   grid-column: 1;
   grid-row: 1
 }
 #craft-section-2 {
-  background-color: brown;
+  background-color: grey;
   display: grid;
   grid-column: 2/4;
   grid-row: 1;
@@ -59,14 +64,15 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+  height: 300px;
 }
 
 #laser-section {
-  background-color: brown;
+  background-color: grey;
   grid-row: 1
 }
 #laser-section-2 {
-  background-color: brown;
+  background-color: grey;
   display: grid;
   grid-column: 1/3;
   grid-row: 1;
@@ -119,6 +125,8 @@ img {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   grid-auto-rows: minmax(100px, auto);
+  background-color: rgba(211, 231, 241, 0.2);
+
 }
 
 .image-card{
@@ -177,6 +185,24 @@ box-shadow: -3px -2px 2px black;
 grid-row: 1;
 grid-column: 2
 }
+#item-split-id {
+  background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/sean-afnan-244576.jpg?raw=true');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 250px;
+}
+#item-split-id2 {
+  background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/stainless-images-110606.jpg?raw=true');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 250px;
+}
 .item-split {
   display: flex;
   justify-content: center;
@@ -185,12 +211,20 @@ grid-column: 2
   background-color: rgba(211, 211, 211, 0.8);
   margin-top: auto;
   margin-bottom: auto;
+  padding: 4em;
 }
 #nav-footer {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   border-top: solid grey 1px;
   border-bottom: solid grey 1px;
+  background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/hb-mertz-314528.jpg?raw=true');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 150px;
 }
 #foot-left {
   grid-row: 2;
