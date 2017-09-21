@@ -44,3 +44,41 @@
     at IncomingMessage.g (events.js:292:16)
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2017-09-21T05:01:24.893Z] ----------------------------------------------------------------------
+[debug] [2017-09-21T05:01:24.897Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2017-09-21T05:01:24.897Z] CLI Version:   3.12.0
+[debug] [2017-09-21T05:01:24.897Z] Platform:      darwin
+[debug] [2017-09-21T05:01:24.898Z] Node Version:  v6.10.3
+[debug] [2017-09-21T05:01:24.898Z] Time:          Wed Sep 20 2017 23:01:24 GMT-0600 (MDT)
+[debug] [2017-09-21T05:01:24.898Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-21T05:01:24.917Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-21T05:01:24.918Z] > authorizing via signed-in user
+[debug] [2017-09-21T05:01:24.921Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/drafted-crafts  
+ Wed Sep 20 2017 23:01:24 GMT-0600 (MDT)
+[debug] [2017-09-21T05:01:25.444Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-21T05:01:25.446Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/drafted-crafts/tokens  
+ Wed Sep 20 2017 23:01:25 GMT-0600 (MDT)
+[debug] [2017-09-21T05:01:25.930Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'drafted-crafts'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2017-09-21T05:01:28.776Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/drafted-crafts/uploads/-KuXnyH10ULpazy5fCpL?fileCount=8&message=  
+ Wed Sep 20 2017 23:01:28 GMT-0600 (MDT)
+[debug] [2017-09-21T05:03:41.716Z] <<< HTTP RESPONSE 409
+[debug] [2017-09-21T05:03:41.717Z] <<< HTTP RESPONSE BODY undefined
+[debug] [2017-09-21T05:03:41.720Z] TypeError: Cannot read property 'error' of undefined
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:10:12)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:43:25)
+    at Request.self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:186:22)
+    at emitTwo (events.js:106:13)
+    at Request.emit (events.js:191:7)
+    at Request.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1163:10)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1085:12)
+    at IncomingMessage.g (events.js:292:16)
+[error] 
+[error] Error: An unexpected error has occurred.
