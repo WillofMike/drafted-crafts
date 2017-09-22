@@ -1,9 +1,10 @@
+
 body {
-  color: white;
-}
-.wrapper {
   display: grid;
+  /*padding: auto;*/
   /*grid-gap: 10px;*/
+  grid-template-columns: repeat(5);
+  color: white;
   grid-auto-rows: minmax(100px, auto);
 }
 .header {
@@ -14,207 +15,88 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 700px;
-
-
+  padding-bottom: 700px;
 }
-#wood-container {
+.wood-section {
   display: grid;
-  /*grid-template-columns: repeat(3, 1fr);*/
-  /*grid-gap: 10px;*/
-  grid-auto-rows: minmax(100px, auto);
-  height: 15em;
-
-}
-
-#wood-section {
-  background-color: grey;
-  grid-column: 1;
-  grid-row: 1
-}
-#wood-section-2 {
-  background-color: grey;
-  display: grid;
-  grid-column: 2/4;
-  grid-row: 1;
-  padding: 15px;
-}
-#craft-container {
-  display: grid;
-  /*grid-template-columns: repeat(3, 1fr);*/
-  /*grid-gap: 10px;*/
-  grid-auto-rows: minmax(100px, auto);
-  height: 15em;
-
-}
-#craft-section {
-  background-color: grey;
-  grid-column: 1;
-  grid-row: 1
-}
-#craft-section-2 {
-  background-color: grey;
-  display: grid;
-  grid-column: 2/4;
-  grid-row: 1;
-  padding: 15px;
-}
-
-#laser-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /*grid-gap: 10px;*/
+  grid-template-columns: repeat(5);
   /*grid-auto-rows: minmax(100px, auto);*/
-  height: 20em;
-  z-index: 1001;
-}
+  padding-bottom: 15px;
+  /*margin: auto;*/
+  background-color: rgba(0, 0, 49, 0.3);
+  border: solid white 2px;
 
-#laser-section {
-  background-color: grey;
-  grid-row: 1;
-  grid-column: 2/3;
+  position: absolute;
+  /*width: 100%;*/
+
 }
-#laser-section-2 {
-  background-color: grey;
-  display: grid;
-  grid-column: 1/5;
-  grid-row: 2;
-  /*padding: 10em;*/
-}
-#laser-image-title {
-  padding: 15px;
+#wood {
   grid-row: 1;
   grid-column: 3;
+  width: 100%;
 }
-.image-title {
-  padding: 15px;
+#wood3 {
+  grid-gap: 10em;
+  display: grid;
+  grid-row: 2;
+  grid-column: 3;
+  justify-content: center;
+  padding-top: 100px;
+  position: relative;
+
+}
+
+.image-card {
   grid-row: 1;
-  grid-column: 1;
+  background-color: white;
+  padding-bottom: 50px;
+  border: solid grey 2px;
+  padding: 10px;
+  padding-bottom: 50px;
+}
+#wood-furn {
+  grid-row: 1;
+}
+#wood-furn2 {
+  grid-row: 1;
+}
+#wood-furn3 {
+  grid-row: 1;
 }
 img {
-  border: solid black 2px;
-  background: yellow;
-  height: 8em;
-  width: 8em;
-  padding: .15em;
+  width: 230px;
+  height: 440px;
+  padding-bottom: 15px;
+  border-bottom: solid grey .5px;
 }
-#wood-gif {
-  display: flex;
-  justify-content: center;
-  height: 150px;
-  width: 275px;
-  background-color: grey;
-  margin: auto;
-}
-#laser-gif {
-  display: flex;
-  justify-content: center;
-  height: 150px;
-  width: 275px;
-  background-color: grey;
-  margin: auto;
-}
-#craft-gif {
-  display: flex;
-  justify-content: center;
-  height: 150px;
-  width: 275px;
-  background-color: grey;
-  margin: auto;
-}
-.photos {
-  display: grid;
-  grid-row: 1;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  grid-auto-rows: minmax(100px, auto);
-  background-color: rgba(211, 231, 241, 0.2);
-
-}
-
-.image-card{
-  display: grid;
-  box-shadow: 2px 1px 3px black;
-  border: solid black 1px;
-  padding: 1em;
-
-}
-.image-card-2{
-  display: grid;
-  box-shadow: -2px 1px 3px black;
-  border: solid black 1px;
-  padding: 1em;
-
-}
-.p-title {
-  padding: 10px;
-  grid-column: 1;
-  grid-row: 1
-}
-.p-title-2 {
-  padding: 10px;
-  grid-column: 3;
-  grid-row: 1
-}
-.image-1 {
-box-shadow: 3px 2px 2px black;
-grid-row: 1;
-grid-column: 2
-}
-.image-2 {
-box-shadow: 3px 2px 2px black;
-grid-row: 1;
-grid-column: 2
-
-}
-.image-3 {
-box-shadow: 3px 2px 2px black;
-grid-row: 1;
-grid-column: 2
-}
-#image-1 {
-box-shadow: -3px -2px 2px black;
-grid-row: 1;
-grid-column: 2
-}
-#image-2 {
-box-shadow: -3px -2px 2px black;
-grid-row: 1;
-grid-column: 2
-
-}
-#image-3 {
-box-shadow: -3px -2px 2px black;
-grid-row: 1;
-grid-column: 2
+h2,p {
+  color: black;
 }
 #item-split-id {
   background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/sean-afnan-244576.jpg?raw=true');
   height: 100%;
+  width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 250px;
+  padding-top: 450px;
+  grid-row: 3;
+  grid-column: 3;
 }
 #item-split-id2 {
   background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/stainless-images-110606.jpg?raw=true');
   height: 100%;
+  width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 250px;
+  padding-top: 450px;
+  grid-row: 4;
+  grid-column: 3;
 }
 .item-split {
-  display: flex;
-  justify-content: center;
-  border-top: solid grey 1px;
-  border-bottom: solid grey 1px;
-  background-color: rgba(211, 211, 211, 0.8);
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: 4em;
 }
 #nav-footer {
   display: grid;
@@ -223,11 +105,14 @@ grid-column: 2
   border-bottom: solid grey 1px;
   background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/hb-mertz-314528.jpg?raw=true');
   height: 100%;
+  width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 250px;
+  grid-row: 5;
+  grid-column: 3;
 }
 #foot-left {
   grid-row: 2;
