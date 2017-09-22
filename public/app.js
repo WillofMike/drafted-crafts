@@ -7,3 +7,21 @@ $(".wood-container").click(function () {
 
   }
 });
+$(".laser-container").click(function () {
+  if ( $( "#laser3" ).is( ":hidden" ) ) {
+    $( "#laser3" ).slideDown( "slow" );
+
+  } else {
+    $( "#laser3" ).hide('#laser');
+
+  }
+});
+$(".craft-container").click(function () {
+  if ( $( "#craft3" ).is( ":hidden" ) ) {
+    $( "#craft3" ).slideDown( "slow" );
+
+  } else {
+    $( "#craft3" ).hide('#craft');
+
+  }
+});

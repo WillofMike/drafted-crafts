@@ -1,22 +1,27 @@
-
 body {
-  display: grid;
-  /*padding: auto;*/
-  /*grid-gap: 10px;*/
-  grid-template-columns: repeat(5);
   color: white;
-  grid-auto-rows: minmax(100px, auto);
 }
+
+.wrapper {
+  grid-template-columns: repeat(5);
+  /*grid-auto-rows: minmax(00px, auto);*/
+  width: 100%;
+  margin: auto;
+}
+
+
+/*background-color: orange;*/
+
 .header {
-  /*background-color: orange;*/
   background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/ricardo-gomez-angel-262359.jpg?raw=true');
   height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 700px;
+  padding-top: 700px;
 }
+
 .wood-section {
   display: grid;
   grid-template-columns: repeat(5);
@@ -25,25 +30,113 @@ body {
   /*margin: auto;*/
   background-color: rgba(0, 0, 49, 0.3);
   border: solid white 2px;
-
   position: absolute;
-  /*width: 100%;*/
-
 }
+
 #wood {
   grid-row: 1;
-  grid-column: 3;
+  grid-column: 2;
   width: 100%;
 }
+
 #wood3 {
-  grid-gap: 10em;
+  grid-gap: 5em;
   display: grid;
   grid-row: 2;
   grid-column: 3;
   justify-content: center;
   padding-top: 100px;
   position: relative;
+}
 
+#wood-furn {
+  grid-row: 1;
+}
+
+#wood-furn2 {
+  grid-row: 1;
+}
+
+#wood-furn3 {
+  grid-row: 1;
+}
+
+.laser-section {
+  display: grid;
+  grid-template-columns: repeat(5);
+  /*grid-auto-rows: minmax(100px, auto);*/
+  padding-bottom: 15px;
+  /*margin: auto;*/
+  background-color: rgba(0, 0, 49, 0.3);
+  border: solid white 2px;
+  position: absolute;
+}
+
+#laser {
+  grid-row: 1;
+  grid-column: 2;
+  width: 100%;
+}
+
+#laser3 {
+  grid-gap: 5em;
+  display: grid;
+  grid-row: 2;
+  grid-column: 3;
+  justify-content: center;
+  padding-top: 100px;
+  position: relative;
+}
+
+#laser-furn {
+  grid-row: 1;
+}
+
+#laser-furn2 {
+  grid-row: 1;
+}
+
+#laser-furn3 {
+  grid-row: 1;
+}
+
+.craft-section {
+  display: grid;
+  grid-template-columns: repeat(5);
+  /*grid-auto-rows: minmax(100px, auto);*/
+  padding-bottom: 15px;
+  /*margin: auto;*/
+  background-color: rgba(0, 0, 49, 0.3);
+  border: solid white 2px;
+  position: absolute;
+}
+
+#craft {
+  grid-row: 1;
+  grid-column: 2;
+  width: 100%;
+}
+
+#craft3 {
+  grid-gap: 5em;
+  display: grid;
+  grid-row: 2;
+  grid-column: 3;
+  justify-content: center;
+  padding-top: 100px;
+  position: relative;
+}
+
+#craft-furn {
+  grid-row: 1;
+}
+
+#craft-furn2 {
+  grid-row: 1;
+}
+
+#craft-furn3 {
+  grid-row: 1;
 }
 
 .image-card {
@@ -54,24 +147,18 @@ body {
   padding: 10px;
   padding-bottom: 50px;
 }
-#wood-furn {
-  grid-row: 1;
-}
-#wood-furn2 {
-  grid-row: 1;
-}
-#wood-furn3 {
-  grid-row: 1;
-}
+
 img {
   width: 230px;
   height: 440px;
   padding-bottom: 15px;
   border-bottom: solid grey .5px;
 }
-h2,p {
+
+h2, p {
   color: black;
 }
+
 #item-split-id {
   background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/sean-afnan-244576.jpg?raw=true');
   height: 100%;
@@ -84,6 +171,7 @@ h2,p {
   grid-row: 3;
   grid-column: 3;
 }
+
 #item-split-id2 {
   background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/stainless-images-110606.jpg?raw=true');
   height: 100%;
@@ -96,11 +184,12 @@ h2,p {
   grid-row: 4;
   grid-column: 3;
 }
-.item-split {
-}
+
+.item-split {}
+
 #nav-footer {
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   border-top: solid grey 1px;
   border-bottom: solid grey 1px;
   background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/hb-mertz-314528.jpg?raw=true');
@@ -110,21 +199,21 @@ h2,p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 250px;
+  padding-top: 350px;
   grid-row: 5;
   grid-column: 3;
 }
+
 #foot-left {
   grid-row: 2;
-  grid-column: 1
-  display: flex;
+  grid-column: 1 display: flex;
   justify-content: center;
   padding-top: 10px;
   /*border-top: solid grey 1px;*/
   border-bottom: solid grey 1px;
-  margin: 1em 9em;
   /*border-bottom: solid grey 1px;*/
 }
+
 #foot-center {
   grid-row: 2;
   grid-column: 2;
@@ -133,9 +222,9 @@ h2,p {
   padding-top: 10px;
   /*border-top: solid grey 1px;*/
   border-bottom: solid grey 1px;
-  margin: 1em 9em;
   /*border-bottom: solid grey 1px;*/
 }
+
 #foot-right {
   grid-row: 2;
   grid-column: 3;
@@ -144,7 +233,6 @@ h2,p {
   padding-top: 10px;
   /*border-top: solid grey 1px;*/
   border-bottom: solid grey 1px;
-  margin: 1em 9em;
   /*border-bottom: solid grey 1px;*/
 }
 
@@ -152,19 +240,41 @@ h2,p {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
+
 #left-cont {
   margin: auto;
   grid-row: 3;
 }
+
 #mid-cont {
   margin: auto;
   grid-row: 3;
 }
+
 #mid-right {
   margin: auto;
   grid-row: 3;
 }
+
 #copy-r {
   grid-row: 1;
   grid-column: 5;
+}
+
+@media (max-width: 400px) {
+  body {
+    width: 80vw;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 960px) {
+  body {
+    width: 100vw;
+  }
+}
+
+@media (min-width: 961px) {
+  body {
+    width: 100vw;
+  }
 }
