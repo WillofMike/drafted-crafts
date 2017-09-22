@@ -25,3 +25,8 @@ $(".craft-container").click(function () {
 
   }
 });
+$("#left-cont").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".wood-container").offset().top
+    }, 1000);
+});
