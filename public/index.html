@@ -5,156 +5,150 @@
   <meta charset="utf-8">
   <title>Drafted Crafts</title>
   <link rel="stylesheet" href="app.css">
-  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 </head>
 
 <body>
-  <div data-role="page">
+  <main class="wrapper">
 
-    <div data-role= "main" class="ui-content">
+    <header class="header">
+      <h1>Drafted Crafts</h1>
+      <p>Twenty Years of Excellence</p>
+    </header>
+    <!-- WOOD CONTAINER -->
+    <div class="wood-container">
+      <div class="wood-section" id="wood">
 
-      <div data-role= "header" class="header">
-        <h1>Drafted Crafts</h1>
-        <p>Twenty Years of Excellence</p>
-      </div>
-      <!-- WOOD CONTAINER -->
-      <div class="wood-container">
-        <div class="wood-section" id="wood">
-
-          <h1>View a Wood Project</h1>
-
-        </div>
-        <div class="wood-section" id="wood3" style="display: none">
-
-          <div class="image-card">
-
-            <img id="wood-furn" src="https://github.com/mwil3/drafted-crafts/blob/master/public/photos/maple-butcher-block.jpg?raw=true" alt="Maple Butchers Block">
-
-            <h2>Maple Butchers Block</h2>
-            <p>Cut some shit up</p>
-
-          </div>
-          <div class="image-card">
-
-            <img id="wood-furn2" src="https://github.com/mwil3/drafted-crafts/blob/master/public/photos/maple-tv-center.JPG?raw=true" alt="Maple Entertainment Center">
-
-            <h2>Maple Entertainment Center</h2>
-            <p>Watch some shit.. Ugh</p>
-          </div>
-          <div class="image-card">
-
-            <img id="wood-furn3" src="https://files.slack.com/files-tmb/T6Z9AJKR8-F77SRA98W-955c5d195b/057_720.jpg" alt="Oak wine servers">
-
-            <h2>Oak Wine Servers</h2>
-            <p>Gettin drunk as piss! Woooo!</p>
-          </div>
-
-
-        </div>
-      </div>
-      <!-- END OF WOOD CONTAINER -->
-      <!-- SPLIT -->
-      <div class="item-split" id="item-split-id">
-
-        <h3>How we help you</h3>
+        <h1>View a Wood Project</h1>
 
       </div>
-      <!-- END OF SPLIT -->
-      <!-- LASER CONTAINER -->
-      <div class="laser-container">
-        <div class="laser-section" id="laser">
+      <div class="wood-section" id="wood3" style="display: none">
 
-          <h1>View a Laser Project</h1>
+        <div class="image-card">
 
-        </div>
-        <div class="laser-section" id="laser3" style="display: none">
+          <img id="wood-furn" src="https://github.com/mwil3/drafted-crafts/blob/master/public/photos/maple-butcher-block.jpg?raw=true" alt="Maple Butchers Block">
 
-          <div class="image-card">
-
-            <img id="laser-furn" src="https://files.slack.com/files-tmb/T6Z9AJKR8-F77SRA98W-955c5d195b/057_720.jpg" alt="">
-
-          </div>
-          <div class="image-card">
-
-            <img id="laser-furn2" src="https://files.slack.com/files-tmb/T6Z9AJKR8-F77SRA98W-955c5d195b/057_720.jpg" alt="">
-
-            <h2>Hello image</h2>
-            <p>More information</p>
-          </div>
-          <div class="image-card">
-
-            <img id="laser-furn3" src="https://files.slack.com/files-tmb/T6Z9AJKR8-F77SRA98W-955c5d195b/057_720.jpg" alt="">
-
-          </div>
-
+          <h2>Maple Butchers Block</h2>
+          <p>Cut some shit up</p>
 
         </div>
-      </div>
+        <div class="image-card">
 
-      <!-- END OF LASER CONTAINER -->
-      <!-- SPLIT -->
-      <div class="item-split" id="item-split-id2">
+          <img id="wood-furn2" src="https://github.com/mwil3/drafted-crafts/blob/master/public/photos/maple-tv-center.JPG?raw=true" alt="Maple Entertainment Center">
 
-        <h3>Where you can find us</h3>
+          <h2>Maple Entertainment Center</h2>
+          <p>Watch some shit.. Ugh</p>
+        </div>
+        <div class="image-card">
+
+          <img id="wood-furn3" src="https://files.slack.com/files-tmb/T6Z9AJKR8-F77SRA98W-955c5d195b/057_720.jpg" alt="Oak wine servers">
+
+          <h2>Oak Wine Servers</h2>
+          <p>Gettin drunk as piss! Woooo!</p>
+        </div>
+
 
       </div>
-      <!-- END OF SPLIT -->
-      <!-- CRAFT CONTAINER -->
-      <div class="craft-container">
-        <div class="craft-section" id="craft">
+    </div>
+    <!-- END OF WOOD CONTAINER -->
+    <!-- SPLIT -->
+    <div class="item-split" id="item-split-id">
 
-          <h1>View a Craft Project</h1>
+      <h3>How we help you</h3>
 
-        </div>
-        <div class="craft-section" id="craft3" style="display: none">
+    </div>
+    <!-- END OF SPLIT -->
+    <!-- LASER CONTAINER -->
+    <div class="laser-container">
+      <div class="laser-section" id="laser">
 
-          <div class="image-card">
+        <h1>View a Laser Project</h1>
 
-            <img id="craft-furn" src="https://files.slack.com/files-tmb/T6Z9AJKR8-F77SRA98W-955c5d195b/057_720.jpg" alt="">
-
-          </div>
-          <div class="image-card">
-
-            <img id="craft-furn2" src="https://files.slack.com/files-tmb/T6Z9AJKR8-F77SRA98W-955c5d195b/057_720.jpg" alt="">
-
-            <h2>Hello image</h2>
-            <p>More information</p>
-          </div>
-          <div class="image-card">
-
-            <img id="craft-furn3" src="https://files.slack.com/files-tmb/T6Z9AJKR8-F77SRA98W-955c5d195b/057_720.jpg" alt="">
-
-          </div>
-
-
-        </div>
       </div>
-      <!-- END OF CRAFT CONTAINER -->
-      <!-- LARGE FOOTER -->
-      <div data-role= "footer" id="nav-footer">
-        <div id="footer-section">
-          <h3 id="foot-left">Navigation</h3>
-          <div id="left-cont">View Wood Projects</div>
-          <h3 id="foot-center">Social</h3>
-          <div id="mid-cont">Content under Social</div>
-          <h3 id="foot-right">Contact</h3>
-          <div id="mid-right">Content under Contact</div>
-        </div>
-        <div id="copy-r">
+      <div class="laser-section" id="laser3" style="display: none">
 
-          <small id="p-footer">DraftedCrafts.com 2017 &copy;</small>
+        <div class="image-card">
+
+          <img id="laser-furn" src="https://files.slack.com/files-tmb/T6Z9AJKR8-F77SRA98W-955c5d195b/057_720.jpg" alt="">
 
         </div>
+        <div class="image-card">
+
+          <img id="laser-furn2" src="https://files.slack.com/files-tmb/T6Z9AJKR8-F77SRA98W-955c5d195b/057_720.jpg" alt="">
+
+          <h2>Hello image</h2>
+          <p>More information</p>
+        </div>
+        <div class="image-card">
+
+          <img id="laser-furn3" src="https://files.slack.com/files-tmb/T6Z9AJKR8-F77SRA98W-955c5d195b/057_720.jpg" alt="">
+
+        </div>
+
+
       </div>
-      <!--END LARGE FOOTER -->
     </div>
 
-  </div>
+    <!-- END OF LASER CONTAINER -->
+    <!-- SPLIT -->
+    <div class="item-split" id="item-split-id2">
+
+      <h3>Where you can find us</h3>
+
+    </div>
+    <!-- END OF SPLIT -->
+    <!-- CRAFT CONTAINER -->
+    <div class="craft-container">
+      <div class="craft-section" id="craft">
+
+        <h1>View a Craft Project</h1>
+
+      </div>
+      <div class="craft-section" id="craft3" style="display: none">
+
+        <div class="image-card">
+
+          <img id="craft-furn" src="https://files.slack.com/files-tmb/T6Z9AJKR8-F77SRA98W-955c5d195b/057_720.jpg" alt="">
+
+        </div>
+        <div class="image-card">
+
+          <img id="craft-furn2" src="https://files.slack.com/files-tmb/T6Z9AJKR8-F77SRA98W-955c5d195b/057_720.jpg" alt="">
+
+          <h2>Hello image</h2>
+          <p>More information</p>
+        </div>
+        <div class="image-card">
+
+          <img id="craft-furn3" src="https://files.slack.com/files-tmb/T6Z9AJKR8-F77SRA98W-955c5d195b/057_720.jpg" alt="">
+
+        </div>
+
+
+      </div>
+    </div>
+    <!-- END OF CRAFT CONTAINER -->
+    <!-- LARGE FOOTER -->
+    <footer id="nav-footer">
+      <div id="footer-section">
+        <h3 id="foot-left">Navigation</h3>
+        <div id="left-cont">View Wood Projects</div>
+        <h3 id="foot-center">Social</h3>
+        <div id="mid-cont">Content under Social</div>
+        <h3 id="foot-right">Contact</h3>
+        <div id="mid-right">Content under Contact</div>
+      </div>
+      <div id="copy-r">
+
+        <small id="p-footer">DraftedCrafts.com 2017 &copy;</small>
+
+      </div>
+    </footer>
+    <!--END LARGE FOOTER -->
+  </main>
+
 
   <script src="app.js"></script>
 </body>
