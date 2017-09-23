@@ -275,6 +275,8 @@ h2, p {
   grid-row: 1;
   grid-column: 5;
 }
+$('#').iosParallax();
+
 
 @media (max-width: 400px) {
   body {
@@ -293,22 +295,27 @@ h2, p {
     width: 100vw;
   }
 }
-@media screen and (max-device-width: 860px){
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
 
- #nav-footer{
-   background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/hb-mertz-314528.jpg?raw=true');
- }
-
-#item-split-id2 {
-  background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/stainless-images-110606.jpg?raw=true');
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
 
-#item-split-id {
-  background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/sean-afnan-244576.jpg?raw=true');
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
-.header {
-  background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/ricardo-gomez-angel-262359.jpg?raw=true');
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
+
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {
+
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {
+
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {
 
 }
