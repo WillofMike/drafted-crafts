@@ -45,7 +45,7 @@ h1 {
 }
 
 #wood3 {
-  grid-gap: 5em;
+  grid-gap: 2em;
   display: grid;
   grid-row: 2;
   grid-column: 3;
@@ -87,7 +87,7 @@ h1 {
 }
 
 #laser3 {
-  grid-gap: 5em;
+  grid-gap: 2em;
   display: grid;
   grid-row: 2;
   grid-column: 3;
@@ -129,7 +129,7 @@ h1 {
 }
 
 #craft3 {
-  grid-gap: 5em;
+  grid-gap: 2em;
   display: grid;
   grid-row: 2;
   grid-column: 3;
@@ -292,4 +292,23 @@ h2, p {
   body {
     width: 100vw;
   }
+}
+@media screen and (max-device-width: 860px){
+
+ #nav-footer{
+   background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/hb-mertz-314528.jpg?raw=true');
+ }
+
+#item-split-id2 {
+  background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/stainless-images-110606.jpg?raw=true');
+}
+
+#item-split-id {
+  background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/sean-afnan-244576.jpg?raw=true');
+}
+
+.header {
+  background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/ricardo-gomez-angel-262359.jpg?raw=true');
+}
+
 }
