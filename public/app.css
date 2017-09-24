@@ -278,6 +278,9 @@ h2, p {
 #about {
   color: white;
 }
+#blog {
+  color: white;
+}
 @media (max-width: 400px) {
   body {
     width: 80vw;
