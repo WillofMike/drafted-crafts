@@ -42,16 +42,16 @@ $("#view-craft").click(function() {
 });
 $(".header").click(function() {
     $('html, body').animate({
-        scrollTop: $("#nav-footer").offset().top
+        scrollTop: $("#nav").offset().top
     }, 1000);
 });
 $("#laser-small").click(function() {
     $('html, body').animate({
-        scrollTop: $("#nav-footer").offset().top
+        scrollTop: $("#nav").offset().top
     }, 1000);
 });
 $("#craft-small").click(function() {
     $('html, body').animate({
-        scrollTop: $("#nav-footer").offset().top
+        scrollTop: $("#nav").offset().top
     }, 1000);
 });
