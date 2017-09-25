@@ -12,6 +12,8 @@ body {
 h1 {
   display: grid;
   grid-column: 2;
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 44px;
 }
 
 /*background-color: orange;*/
@@ -23,7 +25,17 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 700px;
+  padding: 500px;
+}
+#top {
+  font-size: 100px;
+  font-family: 'Amatic SC', cursive;
+}
+#p-top {
+  grid-row: 1;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 23px;
 }
 
 .wood-section {
@@ -215,6 +227,8 @@ h2, p {
   background-size: cover;
   padding-top: 350px;
   grid-row: 5;
+  font-family: 'Amatic SC', cursive;
+  font-size: 33px;
 }
 #footer-section {
   display: grid;
@@ -230,7 +244,7 @@ h2, p {
   grid-column: 2;
   padding-top: 10px;
   /*border-top: solid grey 1px;*/
-  border-bottom: solid grey 1px;
+  border-bottom: solid white 1px;
   /*border-bottom: solid grey 1px;*/
   display: flex;
   justify-content: center;
@@ -243,7 +257,7 @@ h2, p {
   justify-content: center;
   padding-top: 10px;
   /*border-top: solid grey 1px;*/
-  border-bottom: solid grey 1px;
+  border-bottom: solid white 1px;
   /*border-bottom: solid grey 1px;*/
 }
 
@@ -254,7 +268,7 @@ h2, p {
   justify-content: center;
   padding-top: 10px;
   /*border-top: solid grey 1px;*/
-  border-bottom: solid grey 1px;
+  border-bottom: solid white 1px;
 }
 
 
@@ -286,6 +300,7 @@ h2, p {
 #copy-r {
   grid-row: 9;
   grid-column: 5;
+  padding: 15px;
 }
 #about {
   color: white;

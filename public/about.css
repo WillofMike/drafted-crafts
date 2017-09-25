@@ -12,6 +12,8 @@ header {
   grid-row: 2/4;
   grid-column: 3;
   margin-top: 2%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 33px;
   /*border: solid black 2px;*/
 
 }
