@@ -203,8 +203,6 @@ h2, p {
 .item-split {}
 
 #nav-footer {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
   border-top: solid grey 1px;
   border-bottom: solid grey 1px;
   background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/hb-mertz-314528.jpg?raw=true');
@@ -218,61 +216,70 @@ h2, p {
   grid-row: 5;
   grid-column: 3;
 }
+#footer-section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding-top: 350px;
+}
 
-#foot-left {
-  grid-row: 2;
-  grid-column: 1 display: flex;
-  justify-content: center;
+#nav {
+  grid-row: 1;
+  grid-column: 1;
   padding-top: 10px;
   /*border-top: solid grey 1px;*/
   border-bottom: solid grey 1px;
   /*border-bottom: solid grey 1px;*/
 }
 
-#foot-center {
-  grid-row: 2;
+#social {
+  grid-row: 1;
   grid-column: 2;
-  display: flex;
-  justify-content: center;
+  /*display: flex;*/
+  /*justify-content: center;*/
   padding-top: 10px;
   /*border-top: solid grey 1px;*/
   border-bottom: solid grey 1px;
   /*border-bottom: solid grey 1px;*/
 }
 
-#foot-right {
-  grid-row: 2;
+#contact {
+  grid-row: 1;
   grid-column: 3;
   display: flex;
   justify-content: center;
   padding-top: 10px;
   /*border-top: solid grey 1px;*/
   border-bottom: solid grey 1px;
-  /*border-bottom: solid grey 1px;*/
 }
 
-#footer-section {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-}
 
-#left-cont {
-  margin: auto;
+#view-wood {
+  /*margin: auto;*/
   grid-row: 3;
+  grid-column: 1;
+}
+#view-laser {
+  /*margin: auto;*/
+  grid-row: 4;
+  grid-column: 1;
+}
+#view-craft {
+  /*margin: auto;*/
+  grid-row: 5;
+  grid-column: 1;
 }
 
-#mid-cont {
-  margin: auto;
+#contact-info {
+  /*margin: auto;*/
   grid-row: 3;
+  grid-column: 3;
 }
-
-#mid-right {
+.under {
   margin: auto;
-  grid-row: 3;
+  padding: 5px;
 }
-
 #copy-r {
-  grid-row: 1;
+  grid-row: 9;
   grid-column: 5;
 }
 #about {
@@ -280,6 +287,14 @@ h2, p {
 }
 #blog {
   color: white;
+}
+#social1 {
+  grid-row: 3;
+  grid-column: 2;
+}
+#social2 {
+  grid-row: 2;
+  grid-column: 2;
 }
 @media (max-width: 400px) {
   body {
