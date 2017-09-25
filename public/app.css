@@ -1,5 +1,6 @@
 body {
   color: white;
+  margin: auto;
 }
 
 .wrapper {
@@ -214,28 +215,32 @@ h2, p {
   background-size: cover;
   padding-top: 350px;
   grid-row: 5;
-  grid-column: 3;
 }
 #footer-section {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   padding-top: 350px;
+  padding-bottom: 75px;
+  grid-gap:20px;
+
 }
 
 #nav {
   grid-row: 1;
-  grid-column: 1;
+  grid-column: 2;
   padding-top: 10px;
   /*border-top: solid grey 1px;*/
   border-bottom: solid grey 1px;
   /*border-bottom: solid grey 1px;*/
+  display: flex;
+  justify-content: center;
 }
 
 #social {
   grid-row: 1;
-  grid-column: 2;
-  /*display: flex;*/
-  /*justify-content: center;*/
+  grid-column: 3;
+  display: flex;
+  justify-content: center;
   padding-top: 10px;
   /*border-top: solid grey 1px;*/
   border-bottom: solid grey 1px;
@@ -244,7 +249,7 @@ h2, p {
 
 #contact {
   grid-row: 1;
-  grid-column: 3;
+  grid-column: 4;
   display: flex;
   justify-content: center;
   padding-top: 10px;
@@ -255,24 +260,24 @@ h2, p {
 
 #view-wood {
   /*margin: auto;*/
-  grid-row: 3;
-  grid-column: 1;
+  grid-row: 2;
+  grid-column: 2;
 }
 #view-laser {
   /*margin: auto;*/
-  grid-row: 4;
-  grid-column: 1;
+  grid-row: 3;
+  grid-column: 2;
 }
 #view-craft {
   /*margin: auto;*/
-  grid-row: 5;
-  grid-column: 1;
+  grid-row: 4;
+  grid-column: 2;
 }
 
 #contact-info {
   /*margin: auto;*/
   grid-row: 3;
-  grid-column: 3;
+  grid-column: 4;
 }
 .under {
   margin: auto;
@@ -284,17 +289,19 @@ h2, p {
 }
 #about {
   color: white;
+  text-decoration: none;
 }
 #blog {
   color: white;
+  text-decoration: none;
 }
 #social1 {
   grid-row: 3;
-  grid-column: 2;
+  grid-column: 3;
 }
 #social2 {
   grid-row: 2;
-  grid-column: 2;
+  grid-column: 3;
 }
 @media (max-width: 400px) {
   body {
