@@ -7,6 +7,7 @@ $(".wood-container").click(function () {
 
   }
 });
+
 $(".laser-container").click(function () {
   if ( $( "#laser3" ).is( ":hidden" ) ) {
     $( "#laser3" ).slideDown( "slow" );
@@ -16,6 +17,7 @@ $(".laser-container").click(function () {
 
   }
 });
+
 $(".craft-container").click(function () {
   if ( $( "#craft3" ).is( ":hidden" ) ) {
     $( "#craft3" ).slideDown( "slow" );
@@ -25,31 +27,37 @@ $(".craft-container").click(function () {
 
   }
 });
+
 $("#view-wood").click(function() {
     $('html, body').animate({
         scrollTop: $(".wood-container").offset().top
     }, 1000);
 });
+
 $("#view-laser").click(function() {
     $('html, body').animate({
         scrollTop: $(".laser-container").offset().top
     }, 1000);
 });
+
 $("#view-craft").click(function() {
     $('html, body').animate({
         scrollTop: $(".craft-container").offset().top
     }, 1000);
 });
+
 $(".header").click(function() {
     $('html, body').animate({
         scrollTop: $("#nav").offset().top
     }, 1000);
 });
+
 $("#laser-small").click(function() {
     $('html, body').animate({
         scrollTop: $("#nav").offset().top
     }, 1000);
 });
+
 $("#craft-small").click(function() {
     $('html, body').animate({
         scrollTop: $("#nav").offset().top

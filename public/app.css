@@ -18,6 +18,10 @@ h1 {
 
 /*background-color: orange;*/
 
+header {
+  margin-top: -500px;
+}
+
 .header {
   background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/ricardo-gomez-angel-262359.jpg?raw=true');
   height: 100%;
@@ -36,6 +40,7 @@ h1 {
   font-family: 'Amatic SC', cursive;
   color: white;
   font-size: 23px;
+  margin-top: -30px;
 }
 
 .wood-section {
@@ -271,6 +276,17 @@ h2, p {
   border-bottom: solid white 1px;
 }
 
+a {
+  color: #fff;
+}
+
+.contact-container {
+  margin-top: -300px;
+}
+
+.contact-container p {
+  color: #fff;
+}
 
 #view-wood {
   /*margin: auto;*/
