@@ -19,23 +19,27 @@ h1 {
 /*background-color: orange;*/
 
 .header {
+  padding: 500px 0px 500px 0px;
   background-image: url('https://github.com/mwil3/drafted-crafts/blob/master/public/ricardo-gomez-angel-262359.jpg?raw=true');
   height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 500px;
 }
-#top {
+.title {
+  margin-left: -400;
+  text-align: center;
   font-size: 100px;
   font-family: 'Amatic SC', cursive;
 }
-#p-top {
+.sub-title {
   grid-row: 1;
+  text-align: center;
   font-family: 'Amatic SC', cursive;
+  margin: 0;
+  font-size: 25px;
   color: white;
-  font-size: 23px;
 }
 
 .wood-section {
